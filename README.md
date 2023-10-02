@@ -8,5 +8,6 @@ El objetivo de esta práctica es utilizar el lenguaje PHP para desarrollar los e
  - Mantener los productos existentes en la aplicación, permitiendo modificar los productos existentes y dar de alta nuevos productos. No es necesario realizar la opción de borrar pues si la existencia de un producto se pone a cero el producto ya no puede venderse.
  - Permitir listar los pedidos realizados por los usuarios registrados y modificar su estado (de pendiente a enviado y de enviado a entregado), debiendo permitirse el filtrado de los pedidos por:
    -  Usuario registrado.
-    - Producto.
-    - Fecha del pedido (menor o igual, igual y mayor o igual).
+   -  Producto.
+   -  Fecha del pedido (menor o igual, igual y mayor o igual).
+
