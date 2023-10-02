@@ -1,4 +1,5 @@
 ﻿# PROH-practice-3
+Asignatura de Programación Hipermedia dentro del grado de Ingeniería Multimedia por la ETSE (Escuela Técnica Superior de Enginiería) - Universitat de València. Mayo 2023. Práctica 3. Calificación 9.
 
 El objetivo de esta práctica es concluir el desarrollo del sitio Web iniciado en la práctica 1, implementando la parte dinámica correspondiente a la sección de mantenimiento de la página Web, que se encuentra bajo la opción “Administrador” del menú, utilizando el lenguaje PHP.
 
