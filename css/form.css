@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+form {  
+    width: 460px; 
+    height: auto;
+    margin: auto auto;
+    border-radius: 10px;
+    padding: 30px 30px 20px 0px;
+}
+
+input, select {
+    width: 408px;
+    height: 40px;
+    background-color: #FBFBFB;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #00994C;
+    margin: 10px 0px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 405px;
+    height: 150px;
+    background-color: #FBFBFB;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #00994C;
+    padding: 15px 0px 0px 10px;
+    margin: 10px 0px 20px 0px;
+}
+
+label {
+	margin-top: 10px;
+    display: block;
+}
+
+span {
+    font-weight: bold;
+    color: red; 
+}
+
+::-webkit-input-placeholder {
+    color: #A8A8A8;
+}
+
+::-webkit-textarea-placeholder {
+    color: #A8A8A8;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #97D848;
+}
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97D848;
+}
+
+.payment-option {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.payment-option input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
