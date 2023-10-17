@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+img_carrito {
+	width: 100%;
+	background-color: red;
+}
+
+
+p {
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+
+.grid {
+	padding: 1em;
+}
+
+.grid-inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -0.5em;
+}
+
+.item {
+	flex: 1 1 100%;
+	padding: 0.5em;
+}
+
+@media screen and (min-width: 480px) {
+	.item {
+		flex: 1 1 50%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.item {
+		flex: 1 1 33.333%;
+	}
+}
+
+@media screen and (min-width: 980px) {
+	.item {
+		flex: 1 1 25%;
+	}
+}
+
+form {
+	text-align: center;
+	align-content: center;
+	text-decoration: none;
+	
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+#cantidad {
+	width: 60px;
+}

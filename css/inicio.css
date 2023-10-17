@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+.container {
+	position: relative;
+}
+
+.gallery {
+	display: none;
+}
+
+.imagen {
+	width: 100%;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.prev,
+.next {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	
+	top: 30%;
+	width: auto;
+	position: absolute;
+	
+	padding: 16px;
+	margin-top: -50px;
+	border-radius: 0 3px 3px 0;
+	
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 153, 76, 0.7);
+}
+
+h1 {
+	color: #00994C;
+	font-size: 30px;
+	text-align: center;
+	
+	padding: 16px;
+}

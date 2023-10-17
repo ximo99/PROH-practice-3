@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+table {
+  width: 100%;
+  margin: 2% 0%;
+  border: 1px solid #DDD;
+  text-align: center;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #00CC66;
+  color: white;
+}
+
+td {
+  padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #D3FFE9;
+}
+
+table.total tr:last-child {
+  background-color: #f2f2f2;
+}
+
+td img {
+  max-width: 100px;
+  height: auto;
+}
